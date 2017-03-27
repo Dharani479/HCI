@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Change Password</title>
+      <link rel="stylesheet" href="css/style.css">
+	  <script>
+	  function validate(){
+		  var x = document.getElementById("password");
+		  var y = document.getElementById("c_password");
+		  if (x==y){
+			  return true;
+		  }
+		  else{
+			  alert("Password Mistake");
+			  return false;
+		  }
+	  }
+	  </script>
+</head>
+<body>
+<body>
+<div class="container">
+	<section id="content">
+		<form action="change_pass.php" onsubmit="return validate()" method="post">
+			<h1>Change Password</h1>
+			<div>
+				<input type="text" placeholder="Username" required="" id="username" name="username"/>
+			</div>
+			<div>
+				<input type="password" placeholder="Password" required="" id="password" name="password" />
+			</div>
+			<div>
+				<input type="password" placeholder="Retype Password" required="" id="c_password" name="c_password" />
+			</div>
+			<div>
+				<input type="submit" value="Submit" />
+			</div>
+		</form><!-- form -->
+	</section><!-- content -->
+</div><!-- container -->
+</body>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
