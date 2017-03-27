@@ -11,6 +11,7 @@ Functions of teachers:
 	Can upload the course materials in the server and provides the path to the students 
 	Can check the feedback for the course from all students 
 	Can answer to the queries asked by the student
+	Can evaluate and see the marks of the individual in assignment
 	
 Functions of students:
 	Can check his complete performance via graph
@@ -19,6 +20,9 @@ Functions of students:
 	Can send the feedback to the teacher
 	Can post the queries to the teachers
 	Can see all queries which are answered by the teacher
+	Can download the complete source code
+	Can perform an assignment and submit
 	
 Functions of admin:
 	Can add teachers
+	Can provide link to download the complete source code
