@@ -69,7 +69,7 @@ tr:nth-child(even){background-color:#96CDCD}
 <div class="container">
 
 <header>
-   <h1>Students List</h1>
+   <h1>Downloads</h1>
 </header>
   
 <nav>
@@ -118,6 +118,12 @@ $sql="SELECT * from download";
 		}	
 		?>
 		</table>
+	<br><br><br><br><br>
+		<p>
+			Download the source code of template from here<br>
+			<a href="https://github.com/Dharani479/HCI">Download template</a><br>
+			
+		</p>
 		</article>
 
 		</div>
